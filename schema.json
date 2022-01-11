@@ -92,6 +92,24 @@
                 "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
                 "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
               }
+            },
+            {
+              "accountId": 12123,
+              "recipient": "0xD3c62D2F7b6d4A63577F2415E55A6Aa6E1DbB9CA",
+              "nonce": 50,
+              "tokenBuy": 2,
+              "tokenSell": 1,
+              "ratio": [
+                "2",
+                "100"
+              ],
+              "amount": "20000",
+              "validFrom": 0,
+              "validUntil": 1239213821,
+              "signature": {
+                "pubKey": "0387c2e0d3eff05db22713f64b9dc9832a457ec325cb72155784d7e6zrd4cb18",
+                "signature": "374db42919a29d158fabd0cc005c283b4965d95702a4d144ba1be8c28799eb88ce50ba8ba3eefb44649779f3e73ec3baea4680e2a0fabcfaab4d20d8175db901"
+              }
             }
           ],
           "amounts": [
