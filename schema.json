@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "tx": {
+      "type": "extend",
+      "enum": [
+        {
+          "type": "Transfer",
+          "to": "0xD3c62D2F7b6d4A63577F2415E55A6Aa6E1DbB9CA",
+          "fee": "12000000000000000000",
+          "from": "0x36615Cf349d7F6344891B1e7CA7C72883F5dc049",
+          "nonce": 12123,
+          "token": 0,
+          "amount": "17500000000000000",
+          "accountId": 2,
+          "validFrom": 0,
+          "validUntil": 1239213821,
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          }
+        },
+        {
+          "type": "Withdraw",
+          "to": "0xD3c62D2F7b6d4A63577F2415E55A6Aa6E1DbB9CA",
+          "fee": 1200000000,
+          "from": "0xD3c62D2F7b6d4A63577F2415E55A6Aa6E1DbB9CA",
+          "nonce": 12123,
+          "tokenId": 10,
+          "amount": 17500000000000000,
+          "accountId": 12123,
+          "validFrom": 0,
+          "validUntil": 1239213821,
+          "fast": false,
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          }
+        },
+        {
+          "type": "ChangePubKey",
+          "accountId": 1201,
+          "account": "0x3EEe181F789c6585B39904eBAeAb10ACf70f5F1a",
+          "newPkHash": "5fcf0bad911e8fdebd4fd79b0a832bc92a694e55",
+          "feeTokenId": 6,
+          "fee": 121000000000000,
+          "nonce": 51,
+          "ethAuthData": "ECDSAAuthType",
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          },
+          "ethSignature": "0xf0947f0a731ada6e09ca99d3aafb1469a3baaf602eab2f5661edd30d6386",
+          "validFrom": 0,
+          "validUntil": 1239213821
+        },
+        {
+          "type": "ForcedExit",
+          "initiatorAccountId": 12,
+          "target": "0x38de1b4a24548d6ff66fa8e56448d9de09955b08",
+          "nonce": 1001,
+          "tokenId": 5,
+          "fee": "12000000000",
+          "validFrom": 0,
+          "validUntil": 1239213821,
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          }
+        },
+        {
+          "type": "Swap",
+          "submitterId": 12,
+          "submitterAddress": "0x38de1b4a24548d6ff66fa8e56448d9de09955b08",
+          "nonce": 1001,
+          "orders": [
+            {
+              "accountId": 12,
+              "recipient": "0x38de1b4a24548d6ff66fa8e56448d9de09955b08",
+              "nonce": 1001,
+              "tokenBuy": 1,
+              "tokenSell": 2,
+              "ratio": [
+                "100",
+                "2"
+              ],
+              "amount": "100000000",
+              "validFrom": 0,
+              "validUntil": 1239213821,
+              "signature": {
+                "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+                "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+              }
+            }
+          ],
+          "amounts": [
+            "100000000",
+            "20000"
+          ],
+          "fee": "12000000000",
+          "feeToken": 5,
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          }
+        },
+        {
+          "type": "MintNFT",
+          "creatorId": 12,
+          "creatorAddress": "0x38de1b4a24548d6ff66fa8e56448d9de09955b08",
+          "contentHash": "0x2216aae3714e46a9efe0066ff5f3684c95ea9a680a4c39cd36e62b117cb1837c",
+          "recipient": "0x44de1b4a24548d6ff66fa8e56448d9de09955b00",
+          "fee": "12000000000",
+          "feeToken": 5,
+          "nonce": 1001,
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          }
+        },
+        {
+          "type": "WithdrawNFT",
+          "accountId": 12,
+          "from": "0x38de1b4a24548d6ff66fa8e56448d9de09955b08",
+          "to": "0x38de1b4a24548d6ff66fa8e56448d9de09955b08",
+          "token": 100000,
+          "feeToken": 5,
+          "fee": "12000000000",
+          "nonce": 1001,
+          "signature": {
+            "pubKey": "07f86efb9bf58d5ebf23042406cb43e9363879ff79223be05b7feac1dbc58c86",
+            "signature": "9a8119110d2dd15c5b7be55de3870667055ac281c35607b67488873d8db23f8d21af4ff9027edee980124e7b2ce7b79b84fe91801e1badce3f7f339d65d8f003"
+          },
+          "fast": false,
+          "validFrom": 0,
+          "validUntil": 1239213821
+        }
+      ]
+    },
+    "signature": {
+      "type": "extend",
+      "enum": [
+        {
+          "type": "EthereumSignature",
+          "signature": "0x39d0446fac8657f6009408f231afdddc6c3161ed95b994478db50248466e1a99119510f59de827cdf97447d17f87976bdc6a1c7f293322fb357d4178a69619091b"
+        },
+        {
+          "type": "EIP1271Signature",
+          "signature": "0xc9eb71b736ef69192d90a6516c5d66af883f6bc9a1749ed98edff106bcd49594618644860be89b08725de834d3a312d409810ecb39e9e7a5a5a9d8d870b166ab1c"
+        }
+      ]
+    }
+  },
+  "required": [
+    "tx"
+  ]
+}
